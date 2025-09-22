@@ -46,7 +46,11 @@ Daily-365-blogs/
 │── images/ # Images & assets
 │── README.md # Documentation
 
-.
+## 🌍 Live Demo  
+
+- 🚀 **Netlify Deployment** → [daily365blogs.netlify.app](https://daily365blogs.netlify.app/)  
+- 🚀 **GitHub Pages Deployment** → [your-username.github.io/daily-365-blogs](https://consolata-cyber.github.io/daily-365-blogs/)  
+
 
 🤝 Contributing
 
@@ -60,3 +64,4 @@ This project is licensed under the MIT License.
 
 
 Daily-365 blogs was created to combine adventure, innovation, and insights into one platform — helping readers explore the world, understand crypto, and stay ahead of trends.
+
