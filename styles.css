@@ -1,0 +1,309 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Landing Header with Nature Background */
+header {
+  height: 100vh;
+  background: url('nature.jpg.jpg') no-repeat center center/cover;
+  position: relative;
+  color: #fff;
+}
+
+header .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+/* Navbar Top Right */
+nav {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a i {
+  font-size: 14px;
+}
+
+nav a:hover, nav a.active {
+  background: #ffd700;
+  color: #333;
+}
+/* Headings */
+header h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  color: #ffd700; /* Golden for hero title */
+}
+
+header p {
+  font-size: 20px;
+  margin-bottom: 25px;
+  color: #f5f5f5;
+}
+
+/* Section Headings */
+#about h2 {
+  color: #1e90ff; /* Dodger Blue for About */
+}
+
+#icons h2 {
+  color: #32cd32; /* Lime Green for Icons/Features */
+}
+
+#blog h2 {
+  color: #ff4500; /* Orange Red for Blog */
+}
+
+#contact h2 {
+  color: #ff1493; /* Deep Pink for Contact */
+}
+
+/* Blog Article Titles */
+.blog-grid h3 {
+  color: #333; /* Keep blog titles neutral */
+}
+
+/* Icons in Features Section */
+.icon-card i {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+/* Travel Icon */
+.icon-card:nth-child(1) i {
+  color: #1e90ff; /* Blue */
+}
+
+/* Crypto/Bitcoin Icon */
+.icon-card:nth-child(2) i {
+  color: #f2a900; /* Bitcoin Gold */
+}
+
+/* Trending Icon */
+.icon-card:nth-child(3) i {
+  color: #ff4500; /* Red-Orange */
+}
+/* Footer */
+footer {
+  text-align: center;
+  background: #6a0dad; /* Royal Purple */
+  color: #fff;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+
+/* Sections */
+section {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+section {
+  background: rgba(255, 255, 255, 0.85); /* white with transparency */
+  border-radius: 12px;
+  padding: 70px 20px;
+  max-width: 1100px;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+
+section h2 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+article {
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #f4f4f4;
+  border-radius: 8px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.blog-card {
+  display: block;
+  background: #f4f4f4;
+  border-radius: 10px;
+  padding: 20px;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.blog-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.blog-card h3 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+
+/* Icons Section */
+#icons {
+  text-align: center;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.icon-card {
+  flex: 1 1 250px;
+  background: #f9f9f9;
+  padding: 30px 20px;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.icon-card i {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.icon-card h3 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.icon-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Contact Form */
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 600px;
+}
+
+#contact input,
+#contact textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+#contact button {
+  background: #333;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#contact button:hover {
+  background: #444;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+}
