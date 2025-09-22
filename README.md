@@ -1,4 +1,4 @@
-# 🌍 Wander & Trends Blog  
+# 🌍Daily-365 Blogs 
 
 Daily-365 is a responsive, modern blog website that covers **Travel ✈, Crypto ₿, and Trending News 🔥**.  
 The project is built with **HTML5, CSS3, and JavaScript** and is designed to be **mobile-friendly, visually appealing, and easy to navigate**.  
@@ -57,5 +57,6 @@ Contributions are welcome! Feel free to fork this repo, open issues, or submit p
 This project is licensed under the MIT License.
 
 💡 Inspiration
+
 
 Daily-365 blogs was created to combine adventure, innovation, and insights into one platform — helping readers explore the world, understand crypto, and stay ahead of trends.
